@@ -163,6 +163,46 @@ img
     max-width: 100;
 }
 
+.testimonial
+{
+    background: #f7f7f7;
+}
 
+.testimonial .load
+{
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+}
 
+.testimonial .load .testimonialBx
+{
+    background: #2196f3;
+    margin: 20px;
+    padding: 60px 40px;
+    max-width: calc(50%    40px);
+}
 
+.testimonial .load .testimonialBx p
+{
+    font-weight: 300;
+    font-size: 16px;
+    font-style: italic;
+    color: #fff;
+}
+
+.testimonial .load .testimonialBx h3
+{
+    text-align: end;
+    margin-top: 40px;
+    font-weight: 600;
+    color: #fff;
+    line-height: 1em;
+    font-size: 20px;
+}
+
+.testimonial .load .testimonialBx h3 span
+{
+    font-size: 14px;
+    font-weight: 400;
+}
