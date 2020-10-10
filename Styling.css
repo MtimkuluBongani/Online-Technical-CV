@@ -109,6 +109,12 @@ img
     max-width: 100%;
 }
 
+.skills
+{
+    background: #111
+}
+
+
 .skills .load
 {
     display: flex;
@@ -206,3 +212,110 @@ img
     font-size: 14px;
     font-weight: 400;
 }
+
+.connect
+{
+    background: #111;
+}
+
+.connectInfo
+{
+    min-width: 40%;
+}
+
+.connectInfoBx
+{
+    position: relative;
+}
+
+.connectInfoBx .box
+{
+    display: flex;
+    position: relative;
+    padding: 20px 0;
+}
+
+.connectInfoBx .box .icon
+{
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    padding-top: 4px;
+    min-width: 40px;
+    display: flex;
+    color: #fff;
+}
+
+.connectInfoBx .box .text
+{
+    flex-direction: column;
+    font-weight: 300;
+    color: #fff;
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;
+}
+
+.connectInfoBx .box .text h3
+{
+    font-weight: 500;
+    margin-bottom: 0;
+    color: #fff;
+}
+
+/* ... */
+
+.label
+{
+    margin-bottom: 30px;
+    color: #111;
+    width: 100%;
+    text-align: center;
+}
+
+.label_white
+{
+    color: #fff;
+    text-align: center;
+}
+
+header.sticky ul li a
+{
+    color: #111;
+}
+
+header.sticky
+{
+    background: #fff;
+    padding: 20px 100px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+}
+
+header.sticky.flag
+{
+    color: #111;
+}
+
+header ul
+{
+    position: relative;
+    display: flex;
+}
+
+header ul li 
+{
+    position: relative;
+    list-style: none;
+}
+
+header ul li a 
+{
+    position: relative;
+    display: inline-block;
+    margin: 0 15px;
+    color: #fff;
+    text-decoration: none; 
+}
+
+
+
