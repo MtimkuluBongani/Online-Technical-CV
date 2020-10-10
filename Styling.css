@@ -145,5 +145,24 @@ img
     background: #2196f3;
 }
 
+.achieve .load
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.achieve .load .achieveBx
+{
+    width: 50%;
+    padding: 20px;
+}
+
+.achieve .load .achieveBx img
+{
+    max-width: 100;
+}
+
+
 
 
