@@ -258,9 +258,9 @@ img
 
 .connectInfoBx .box .text h3
 {
+    color: #fff;
     font-weight: 500;
     margin-bottom: 0;
-    color: #fff;
 }
 
 /* ... */
@@ -317,5 +317,35 @@ header ul li a
     text-decoration: none; 
 }
 
+.wave
+{
+    position: relative;
+}
 
+.wave span
+{
+    position: relative;
+    display: inline-block;
+    color: #fff;
+    font-size: 2em;
+    text-transform: uppercase;
+    animation: animate 1s ease-in-out infinite;
+    animation-delay: calc(0.1s *var(--i));
+}
+
+@keyframes animate
+{
+    0%
+    {
+        transform: translate(0px);
+    }
+    20%
+    {
+        transform: translate(-20px);
+    }
+    40%,100%
+    {
+        transform: translate(0px);
+    }
+}
 
