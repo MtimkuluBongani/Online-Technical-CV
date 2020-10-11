@@ -14,14 +14,14 @@ section
 }
 .intro
 {
-    min-height: 100vh;
     position: relative;
+    min-height: 100vh;
+    background: url(Images/BINGO.JPG);
     background-size: cover;
     background-position: right;
-    background: url(Images/BINGO.JPG);
+    display: flex;
     justify-content: space-between;
     align-items: center;
-    display: flex;
 }
 .intro h2
 {
@@ -151,20 +151,20 @@ img
     background: #2196f3;
 }
 
-.achieve .load
+.achievements .load
 {
-    display: flex;
     flex-wrap: wrap;
+    display: flex;
     justify-content: space-between;
 }
 
-.achieve .load .achieveBx
+.achievements .load .achievementsBx
 {
-    width: 50%;
     padding: 20px;
+    width: 50%;
 }
 
-.achieve .load .achieveBx img
+.achievements .load .achievementsBx img
 {
     max-width: 100;
 }
